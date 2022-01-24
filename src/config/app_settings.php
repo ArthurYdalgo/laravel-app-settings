@@ -92,8 +92,6 @@ return [
     'controller' => '\QCod\AppSettings\Controllers\AppSettingController',
 
     // settings group
-    'setting_group' => function() {
-        // return 'user_'.auth()->id();
-        return 'default';
-    }
+    'setting_group' => 'default'
+    
 ];
